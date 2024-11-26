@@ -114,5 +114,3 @@ class Webmanifest implements MiddlewareInterface
             'favicon512' => $configuration['webmanifest']['favicon_512'] ?? null,
         ];
     }
-
-}
