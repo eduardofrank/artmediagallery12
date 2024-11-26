@@ -306,12 +306,22 @@ page {
     }
 }
 
-
-page.headerData.2020 = FLUIDTEMPLATE
-page.headerData.2020 {
-	file = EXT:artmediagallery12/Resources/Private/Templates/Favicons.html
- 	extbase.controllerExtensionName = artmediagallery12
+page {
+ headerData {
+     2024 = FLUIDTEMPLATE
+     2024 {
+  template = TEXT
+  template.value (
+<link rel="apple-touch-icon" sizes="180x180" href="{f:uri.resource(path: 'Icons/apple-touch-icon.png', extensionName: 'artmediagallery12')}">
+<link rel="icon" type="image/png" sizes="32x32" href="{f:uri.resource(path: 'Icons/favicon-32x32.png', extensionName: 'artmediagallery12')}">
+<link rel="icon" type="image/png" sizes="16x16" href="{f:uri.resource(path: 'Icons/favicon-16x16.png', extensionName: 'artmediagallery12')}">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+            )   
+        }
+    }
 }
+
 
 lib.contentElement.settings.responsiveimages.variants {
     default {
