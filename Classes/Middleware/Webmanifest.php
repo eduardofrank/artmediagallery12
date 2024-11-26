@@ -1,6 +1,6 @@
 <?php
 
-namespace EduardoFrank\Efrank12\Middleware;
+namespace EduardoFrank\artmediagallery12\Middleware;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
