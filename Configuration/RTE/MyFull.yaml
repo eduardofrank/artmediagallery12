@@ -148,3 +148,4 @@ editor:
           { language: 'php', label: 'PHP', class: 'php-code' },
           { language: 'javascript', label: 'JavaScript', class: 'js javascript js-code' },
       ]
+
